@@ -14,7 +14,7 @@ interface CompaniesCompanyRolesPreGetPluginInterface
      *
      * @param \Generated\Shared\Transfer\CompanyRoleTransfer $creditMemoTransfer
      *
-     * @return \Generated\Shared\Transfer\CompanyRoleTransfer
+     * @return \Generated\Shared\Transfer\CompanyRoleTransfer|null
      */
-    public function preGet(CompanyRoleTransfer $creditMemoTransfer): CompanyRoleTransfer;
+    public function preGet(CompanyRoleTransfer $creditMemoTransfer): ?CompanyRoleTransfer;
 }
